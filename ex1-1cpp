@@ -4,4 +4,8 @@ using namespace std;
 
 int main()
 {
-  printf("hello \2
+  printf("hello 2 \n ")
+  cout<<" hello world ">>
+  
+  return 0;
+ }
