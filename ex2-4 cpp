@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int     r;
+    
+    printf("please input a radius \n");
+    scanf("%d",&r);
+    printf(" the area of the circle = %lf\n",r * r * 3.14);
+    printf("circumference of the circle = %lf\n",r*2*3.14);
+    
+    return 0;
+}
