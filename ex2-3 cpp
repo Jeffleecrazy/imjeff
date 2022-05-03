@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int     i;
+    int     k;
+    
+    printf("please input a integer \n");
+    scanf("%d",&i);
+    printf(" your input integer= %d\n",i * i);
+    
+    printf("please input a integer \n");
+    scanf("%d",&k);
+    printf(" your input integer= %d\n",k * k);
+    
+    printf("the sum of square = %d\n",i*i+k*k);
+    
+    return 0;
+}
